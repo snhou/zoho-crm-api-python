@@ -99,10 +99,10 @@ resp=module_ins.get_records(page=3,per_page=100)
 for records in resp.data:
     print(records)
 ```
-> ## Reference
-> 
-> [OAuth Authentication](https://www.zoho.com/creator/help/api/v2/oauth-overview.html)
-> [Zoho CRM Python SDK Doc](https://www.zoho.com/crm/developer/docs/server-side-sdks/py-overview.html)
-> [Zoho CRM Python SDK repo](https://github.com/zoho/zcrm-python-sdk)
-> [Web Server Applications](https://www.zoho.com/accounts/protocol/oauth/web-server-applications.html)
-> [Get Records API](https://www.zoho.com/crm/developer/docs/api/v2/get-records.html)
+## Reference
+ 
+[OAuth Authentication](https://www.zoho.com/creator/help/api/v2/oauth-overview.html)
+[Zoho CRM Python SDK Doc](https://www.zoho.com/crm/developer/docs/server-side-sdks/py-overview.html)
+[Zoho CRM Python SDK repo](https://github.com/zoho/zcrm-python-sdk)
+[Web Server Applications](https://www.zoho.com/accounts/protocol/oauth/web-server-applications.html)
+[Get Records API](https://www.zoho.com/crm/developer/docs/api/v2/get-records.html)
