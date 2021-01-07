@@ -4,8 +4,7 @@ Zoho provides a Python SDK that can be integrated with Zoho CRM, but it seems a 
 
 
 ### step1 Create application
-#### 1.sign in zoho
-![](https://i.imgur.com/hpXPsBA.png)
+#### 1.sign in zoho(https://accounts.zoho.com/signin)
 
 #### 2.Visit the page https://api-console.zoho.com/ and click **ADD CLIENT**
 
