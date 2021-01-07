@@ -43,7 +43,7 @@ And if you have to get all zoho data, you can add the scope"ZohoCRM.Modules.ALL"
 
 #### 3.get authorization grant code
 
-After you click **submit**, you will redirect to the website you fill in the previous step.
+After you click **submit** and **accept**, you will redirect to the website you fill in the previous step.
 
 And you have to get the authorization grant code on url(after"code=")
 
