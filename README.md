@@ -82,6 +82,10 @@ redirect_uri: in the [previous step](#4.fill-data)
 accounts_url: Based on your domain，default:https://accounts.zoho.com
 Authorization_Grant_Code:in the [previous step](#3.get-authorization-grant-code)
 
+#### 3.create log file
+You have to create a log file for saving log details.
+After you run the code below, the **oauth.log** will create in the file automatically.
+Also the **zcrm_oauthtokens.pkl** will create automatically.
 
 ### step4 Fetch Zoho Data With Python
 
