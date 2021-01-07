@@ -91,14 +91,14 @@ Also the **zcrm_oauthtokens.pkl** will create automatically.
 
 * Get a Record by Id
 ```python
-record = ZCRMRecord.get_instance('Lead',id)
+record = ZCRMRecord.get_instance('Leads',id)
 resp = record.get()
 print(resp.data.field_data['Email'])
 ```
 
 * Get Module Records
 ```python
-module_ins = ZCRMModule.get_instance('Lead') 
+module_ins = ZCRMModule.get_instance('Leads') 
 resp=module_ins.get_records(page=3,per_page=100)
 for records in resp.data:
     print(records)
