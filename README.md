@@ -20,10 +20,10 @@ Zoho provides a Python SDK that can be integrated with Zoho CRM, but it seems a 
 Enter Client Name, Homepage URL, and Authorized Redirect URI. Click **CREATE**.You can fill your personal or company homepage url in these two url fields.
 
 (Not recommended)if you don't have any url, you can fill any website you trust, maybe such as google.
-![](https://i.imgur.com/9zlab3e.png =300x400)
+![](https://i.imgur.com/9zlab3e.png)
 
 #### 5.get Client ID and Client Secret
-![](https://i.imgur.com/FGJa7Yp.png =280x350)
+![](https://i.imgur.com/FGJa7Yp.png)
 
 
 ### step2 Send Authorization Request to Generate 「code」
@@ -102,7 +102,11 @@ for records in resp.data:
 ## Reference
  
 [OAuth Authentication](https://www.zoho.com/creator/help/api/v2/oauth-overview.html)
+
 [Zoho CRM Python SDK Doc](https://www.zoho.com/crm/developer/docs/server-side-sdks/py-overview.html)
+
 [Zoho CRM Python SDK repo](https://github.com/zoho/zcrm-python-sdk)
+
 [Web Server Applications](https://www.zoho.com/accounts/protocol/oauth/web-server-applications.html)
+
 [Get Records API](https://www.zoho.com/crm/developer/docs/api/v2/get-records.html)
