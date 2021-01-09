@@ -77,13 +77,13 @@ print(oauth_tokens)
 ```
 currentUserEmail: you have to check your zoho email
 
-client_id and client_secret: in the [previous step](#5.get-Client-ID-and-Client-Secret)
+client_id and client_secret: in the previous step
 
-redirect_uri: in the [previous step](#4.fill-data)
+redirect_uri: in the previous step
 
 accounts_url: Based on your domain，default:https://accounts.zoho.com
 
-Authorization_Grant_Code:in the [previous step](#3.get-authorization-grant-code)
+Authorization_Grant_Code:in the previous step
 
 #### 3.create log file
 You have to create a log file for saving log details.
