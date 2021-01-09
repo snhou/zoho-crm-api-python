@@ -36,7 +36,7 @@ And if you have to get all zoho data, you can add the scope"ZohoCRM.Modules.ALL"
 
 #### 2.After visiting the url, you can see this page contains your service.
 
-**click Submit**
+**click Submit**and **accept**
 
 ![](https://i.imgur.com/h24xO1l.png)
 
@@ -76,9 +76,13 @@ oauth_tokens = oauth_client.generate_access_token(grant_token)
 print(oauth_tokens)
 ```
 currentUserEmail: you have to check your zoho email
+
 client_id and client_secret: in the [previous step](#5.get-Client-ID-and-Client-Secret)
+
 redirect_uri: in the [previous step](#4.fill-data)
+
 accounts_url: Based on your domain，default:https://accounts.zoho.com
+
 Authorization_Grant_Code:in the [previous step](#3.get-authorization-grant-code)
 
 #### 3.create log file
